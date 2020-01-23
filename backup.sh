@@ -18,9 +18,10 @@ function usage()
     echo -e "\t -p [MYSQL PASSWORD]     If needed (eg: you're not root), provide login info to mysql."
     echo -e "\t -s                      Same as -p but password will be asked in shell. Ignored if -p is used."
     echo -e "\t -d [DATABASES NAMES]    Backup only provided databases, separated by ','. If not used, script will backup all databases."
-    echo -e "\t -o [OUT PATH]           Create path if it doesn't exists. If not used, will backup all in current working directory."
+    echo -e "\t -o [OUT PATH]           Create path if it doesn't exist. If not used, will backup all in current working directory."
     echo -e "\t -a                      Backup all databases without asking for confirmation."
     echo -e "\t -f                      Backup information_schema and performance_schema, ignored by default."
+    echo -e "\t -h                      Display this dialog."
     exit 0
 }
 
