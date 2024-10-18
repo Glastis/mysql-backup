@@ -7,7 +7,7 @@ OUTPATH=""
 BACKUP_ALL=""
 DB_LIST=""
 MYSQL_COMMAND="mysql"
-MYSQLDUMP_COMMAND="mysqldump"
+MYSQLDUMP_COMMAND="mysqldump --single-transaction"
 MYSQL_TABLES=""
 
 function usage()
