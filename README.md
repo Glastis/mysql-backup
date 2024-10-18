@@ -11,4 +11,5 @@ The option list is here:
     -o [OUT PATH]           Create path if it doesn't exist. If not used, will backup all in current working directory.
     -a                      Backup all databases without asking for confirmation.
     -f                      Backup information_schema and performance_schema, ignored by default.
+    -H [MYSQL HOST]         Specify mysql host. Default is localhost.
     -h                      Display this dialog.
